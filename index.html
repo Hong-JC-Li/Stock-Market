@@ -1,0 +1,36 @@
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" >
+</head>
+<body>
+  <div>
+    <h2 class="title display-4 mt-4 mb-4">Stock Market</h2>
+  </div>
+  <div class="container">
+    
+    <!-- This is where the indexes will be rendered. -->
+    <div class="row"></div>
+    
+    <!-- This is where the stocks will be rendered along with the search -->
+    <div class="container row">
+      
+      <div class="stock-cards col-8">
+      </div>
+      
+      <div class="col-4">
+        <form class="form-inline mt-4"  onclick="event.preventDefault()">
+          <div class="form-group mx-sm-3 mb-2">
+            <input class="inputfile form-control" placeholder="Search Stocks">
+          </div>
+          
+          <button type="submit" class="inputbutton btn btn-primary mb-2">Search</button>
+        </form>
+      </div>
+      
+    </div>
+    
+  </div>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="stock_market.js"></script>
+</body>

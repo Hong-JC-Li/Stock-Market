@@ -1,0 +1,61 @@
+body {
+  background-color: #1a1a1a!important;
+  color: white!important;
+}
+
+.index-card {
+  width: 15rem;
+  padding: 1rem;
+  margin: .25rem;
+  background-color: #242424;  
+}
+
+.index-title {
+  white-space: nowrap;
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.index-price {
+  font-size: 1rem;
+}
+
+.index-change {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.stock-card {
+
+   padding: 1rem;
+  margin: 1.5rem;
+   
+
+  background-color: #252525;
+  color: white;
+}
+
+.stock-title, .stock-price {
+  padding: 0;
+  margin: 0;
+  
+  font-size: 24px;
+  font-weight: bolder;
+  color: white;
+}
+
+.stock-symbol, .stock-change {
+  padding-top: 1rem;
+  margin: 0;
+  color: #cdcdcd;
+}
+.title {
+text-align: center;
+padding: 3px;
+}
+.inputfile {
+  padding: 5px;
+}
